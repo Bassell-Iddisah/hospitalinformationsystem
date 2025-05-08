@@ -14,4 +14,11 @@ public class Employee {
         Address = Address;
         Phone = Phone;
     }
+
+    // Getters
+    public int getEmployeeID() { return EmpoyeeID; }
+    public String getFirstName() { return FirstName; }
+    public String getLastName() { return LastName; }
+    public String getAddress() { return Address; }
+    public String getPhone() { return Phone; }
 }
