@@ -1,0 +1,28 @@
+Task 1: Design the Database Schema ✅
+- Use any modeling tool to design an ERD based on the hospital system requirements. ✔
+- Ensure proper relationships (one-to-many, many-to-many) between entities. ✔
+- Normalize the database schema up to 3NF to eliminate redundancy. ✔
+
+Task 2: Implement the Database in MySQL/PostgreSQL
+- Translate the ERD model into SQL tables with primary and foreign keys.
+- Write SQL scripts to create tables and establish relationships.
+
+Task 3: Connect Java to the Database Using JDBC
+- Use JDBC to establish a database connection.
+- Implement proper exception handling for connection failures.
+
+Task 4: Perform CRUD Operations on One Entity Using JDBC
+- Choose one entity (e.g., Patient).
+- Implement the following **CRUD** operations using JDBC:
+    - INSERT a new record.
+    - SELECT and display records.
+    - UPDATE a record.
+    - DELETE a record.
+
+// Extra Tasks
+Task 5: Ensure everything works well with tests
+Task 6: Implement an intuitive user interface
+Task 7: Implement full CRUD operations for all entities
+Task 8: Generate a report of the entire system
+Task 9: Implement File handling by exporting generated reports to a file
+Task 10: User Git rebase to streamline git histories for some branches
